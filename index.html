@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet Facette, TP2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="conteneurNav">
+        <a href="#" class="logo">D. VanMinh</a>
+        <nav class="navbar">
+            <a href="#apropos">Objectif</a>
+            <a href="#project">Projet</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <div id="blank"></div>
+        <div id="contact">
+            Mes liens:
+
+            <a href="https://www.artstation.com/?sort_by=community&dimension=all"><img src="artstation-1.svg"
+                    alt="Lien vers mon portfolio en ligne">
+            </a>
+
+            <a href="mailto:sirdovanminh@gmail.com"><img src="gmail-icon-2.svg"
+                    alt="Lien vers ma boîte de courriel"></a>
+
+            <a href="https://www.linkedin.com/in/van-minh-do-a70b98293/"><img src="linkedin_icon.svg"
+                    alt="Lien vers mon compte LinkedIn"></a>
+
+        </div>
+        <div id="apropos" class="objectif">
+            <h2>Mon objectif</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam corrupti similique inventore porro
+                earum facere accusamus sint nisi dolorum. Praesentium, asperiores necessitatibus totam officiis quos
+                similique qui earum modi tempora!</p>
+        </div>
+        <div id="project" class="GRIDproject hide">
+            <div class="carte carte1 model1 show">
+                <script type="module" src="https://unpkg.com/@splinetool/viewer@1.0.54/build/spline-viewer.js"></script>
+                <spline-viewer url="https://prod.spline.design/25C6yn98lr4m4Y1R/scene.splinecode"></spline-viewer>
+            </div>
+            <div class="carte carte1 model2 hide">
+                <script type="module" src="https://unpkg.com/@splinetool/viewer@1.0.66/build/spline-viewer.js"></script>
+                <spline-viewer url="https://prod.spline.design/Hb73b-pU2vTiKFNH/scene.splinecode"></spline-viewer>
+            </div>
+            <div class="carte carte1 model3 hide">
+                <script type="module" src="https://unpkg.com/@splinetool/viewer@1.0.66/build/spline-viewer.js"></script>
+                <spline-viewer url="https://prod.spline.design/pAKVErOEzSwsxM3A/scene.splinecode"></spline-viewer>
+            </div>
+            <div class="carte carte1 model4 hide">
+                <img src="CowBoyRender.png" alt="Rendue 3D d'un cowboy stylisé !">
+            </div>
+
+            <div id="carrousel" class="carte carte2 conteneur-bouton">
+                <button class="bouton" id="preceBtn"> &lt </button>
+                <button class="bouton" id="suivBtn"> &gt </button>
+            </div>
+            <div class="carte carte3 title1 show">Premiers pas</div>
+            <div class="carte carte3 title2 hide">Squelette homme</div>
+            <div class="carte carte3 title3 hide">Cowboy</div>
+            <div class="carte carte3 title4 hide">Peaufinage</div>
+            <div class="carte carte4 desc1 show">4. Description 1</div>
+            <div class="carte carte4 desc2 hide">4. Description 2</div>
+            <div class="carte carte4 desc3 hide">4. Description 3</div>
+            <div class="carte carte4 desc4 hide">4. Description 4</div>
+            <div class="carte carte5 apprend1 show">5. Apprentissage 1</div>
+            <div class="carte carte5 apprend2 hide">5. Apprentissage 2</div>
+            <div class="carte carte5 apprend3 hide">5. Apprentissage 3</div>
+            <div class="carte carte5 apprend4 hide">5. Apprentissage 4</div>
+            <div class="carte carte6 logiciels1 show">6. Programmes/Logiciels 1</div>
+            <div class="carte carte6 logiciels2 hide">6. Programmes/Logiciels 2</div>
+            <div class="carte carte6 logiciels3 hide">6. Programmes/Logiciels 3</div>
+            <div class="carte carte6 logiciels4 hide">Logiciels utilisés :<img src="Spline3D-Logo.png"> <img
+                    src="Blender_Logo.jpg">
+            </div>
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
